@@ -1,0 +1,49 @@
+/* mine */
+.mine_container{
+    display: flex;
+    padding:70px 20px 20px 20px;
+    min-height: 800px;
+    background-color: #406;
+}
+.mine{
+    margin:0 auto;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 2px solid #EAEAEA;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow:-1px -1px 1px  1px black inset;
+}
+.mine_start{
+    background-color: #ffe6a3;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border:none;
+    font-weight: bold;
+    color:hotpink;
+    border: 2px solid hotpink;
+}
+.mine_input{
+    height: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.timer{
+    display: inline-block;
+    padding:5px 20px 5px 20px;
+    background-color: black;
+    color:red;
+    font-size: 40px;
+    font-weight: bold;
+}
+.result{
+    font-size: 32px;
+    color:white;
+}

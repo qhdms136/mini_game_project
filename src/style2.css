@@ -1,0 +1,141 @@
+
+/*-----resCheck-----*/
+.rescheck_container{
+    display: flex;
+    padding:70px 20px 20px 20px;
+    min-height: 800px;
+    background-color: #406;
+}
+.rescheck{
+    margin: 0 auto;
+}
+.res_result{
+    padding:30px;
+    color:#fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+.ResBtn{
+    margin-left: 150px;
+    text-align: center;
+    background-color: #ffe6a3;
+    width: 100px;
+    height:30px;
+    border-radius: 10px;
+    border:none;
+    font-weight: bold;
+    color:hotpink;
+    border: 2px solid hotpink;
+}
+#screen {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    user-select: none;
+}
+#screen.waiting {
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+}
+#screen.ready {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#screen.now {
+    background-color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* -----Lotto----- */
+.ball {
+    display: inline-block;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    color:rgb(170, 170, 170);
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.lotto_container{
+    display: flex;
+    padding:70px 20px 20px 20px;
+    min-height: 800px;
+    background-color: #406;
+}
+.lotto{
+    margin: 0 auto;
+}
+.LottoBtn{
+    background-color: #ffe6a3;
+    width: 100px;
+    height:30px;
+    border-radius: 10px;
+    border:none;
+    font-weight: bold;
+    color:hotpink;
+    border: 2px solid hotpink;
+}
+.LottoFont{
+    color:#ffffff;
+    margin-bottom: 30px;
+}
+
+/* -----Tetris----- */
+.tetris_container{
+    text-align: center;
+    color:#fff;
+    background-color: #406;
+    padding: 70px 20px 20px 20px;
+    min-height: 800px;
+}
+
+/* Tictactoe */
+.tictactoe_container{
+    text-align: center;
+    background-color: #406;
+    padding: 70px 20px 20px 20px;
+    min-height: 800px;
+}
+.tictactoe{
+    display: flex;
+    justify-content: center;
+}
+
+.ticTd {
+    border: 2px solid #EAEAEA;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-bottom:10px;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: black;
+    color:#fff;
+    box-shadow:-1px -1px 1px  1px #fff inset;
+}
+.TicResult{
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    color:#fff;
+}
+.ResetBtn{
+    background-color: #ffe6a3;
+    width: 100px;
+    height:30px;
+    border-radius: 10px;
+    border:none;
+    font-weight: bold;
+    color:hotpink;
+    border: 2px solid hotpink;
+    margin-top: 30px;
+}

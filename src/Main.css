@@ -1,0 +1,100 @@
+/* 배경 이미지 그라데이션 */
+.GameBoxStyle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7c6eff;
+    width: 50%;
+}
+.GameBoxStyle1:hover{
+    filter: hue-rotate(360deg);
+    background-image: linear-gradient(),
+    linear-gradient(to left,#37a9fa,#5951f3);
+  background-clip: content-box, border-box;
+  background-origin: border-box;
+  animation: huerotate 6s infinite linear;
+} 
+.GameBoxStyle2:hover{
+    filter: hue-rotate(360deg);
+    background-image: linear-gradient(),
+    linear-gradient(to left,#37a9fa,#5951f3);
+  background-clip: content-box, border-box;
+  background-origin: border-box;
+  animation: huerotate 6s infinite linear;
+} 
+@keyframes huerotate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+.GameBoxStyle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffe6a3;
+    width: 50%;
+}
+/* 아이콘 */
+.ChessIcon{
+    display: block;
+    width: 120px;
+    height: 100px;
+    background:url('./img/chess_game2.gif') no-repeat;
+    background-size: contain;
+}
+.ChessIcon:hover{
+    background-image: url('./img/chess_game.gif');
+}
+.Lotto{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background:url('./img/lotto_game2.gif') no-repeat;
+    background-size: contain;
+}
+.Lotto:hover{
+    background-image: url('./img/lotto_game.gif');
+}
+.Mine{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background:url('./img/mine_game2.gif') no-repeat;
+    background-size: contain;
+}
+.Mine:hover{
+    background-image: url('./img/mine_game.gif');
+}
+.ResCheck{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background:url('./img/rescheck_game2.gif') no-repeat;
+    background-size: contain;
+}
+.ResCheck:hover{
+    background-image: url('./img/rescheck_game.gif');
+}
+.Tetris{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background:url('./img/tetris_game2.gif') no-repeat;
+    background-size: contain;
+}
+.Tetris:hover{
+    background-image: url('./img/tetris_game.gif');
+}
+.TicTacToe{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background:url('./img/tictactoe_game2.gif') no-repeat;
+    background-size: contain;
+}
+.TicTacToe:hover{
+    background-image: url('./img/tictactoe_game.gif');
+}
