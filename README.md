@@ -13,6 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 # 설치한 모듈
+```
 npm install react-router-dom
 npm install @mui/material
 npm install @mui/icons-material
@@ -22,7 +23,7 @@ npm install rxjs
 npm install react-dnd
 npm install react-dnd-html5-backend
 npm install chess.js@0.11.0
-
+```
 # firebase deploy
 ```
 npm run build (재배포시 run build 후 freibase deploy)
