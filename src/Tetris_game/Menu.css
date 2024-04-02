@@ -13,3 +13,23 @@
     box-shadow: rgba(0,0,0, 0.5) 0px 0px 60px;
     cursor: pointer;
 }
+.tetris_guide{
+    padding : 20px;
+    box-sizing: border-box;
+    margin-top:40px;
+    border-radius: 20px;
+    border: solid 2px white;
+}
+.guide_title{
+    margin-bottom: 20px;
+}
+.guide_box{
+    display: flex;
+    justify-content: space-around;
+}
+.guide_cont1{
+    text-align: center;
+}
+.guide_cont2{
+    text-align: left;
+}
